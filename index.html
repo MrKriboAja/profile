@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivasi Tuan Kribo</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Halaman Login -->
+    <div id="login-page" class="login-container animate__animated animate__fadeIn">
+        <div class="login-box">
+            <h1>Login</h1>
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Masukkan Username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Masukkan Password" required>
+                </div>
+                <button type="submit" class="login-button">Masuk</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Halaman Utama (Tersembunyi Awalnya) -->
+    <div id="main-page" class="container" style="display: none;">
+        <!-- Gambar -->
+        <div class="image-container animate__animated animate__fadeIn">
+            <img src="foto.jpg" alt="Foto Motivasi" class="responsive-image">
+        </div>
+
+        <!-- Video -->
+        <div class="video-container animate__animated animate__fadeInUp">
+            <video controls class="responsive-video">
+                <source src="video.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+
+        <!-- Teks Motivasi -->
+        <div class="text-container animate__animated animate__fadeInUp">
+            <p class="motivational-text">
+                Aku Tumbuh Tanpa Sesosok Orang Tua. Aku Ingin Mencita Citakan Diri Ku Sendiri. Jangan Pernah Putus Semangat. Jangan Berhenti. Jangan Dengarkan Orang Lain Hal Yang Tidak Penting. Pelajari Literasi Agar Kamu Dapat Memahami Dengan Baik Dan Bijak...<br><br>
+                <strong>"Tetap Lah Tumbuh. Percaya Lah Pada Hati Diri Sendiri Karena Isi Hati Tak Akan Dapat Di Baca Oleh Manusia Kecuali Tuhan. Tetap Lah Tumbuh Semangat Berjuang Karena Kehidupan Berjalan Melewati Hari, Waktu, Bulan, Dan Tahun. Semangat Lah Tetap Tumbuh. Ambil Sisi Baik Dari Apa Yang Orang Lain Bicarakan Dan Itu Adalah Motivasi. Hal Yang Tidak Penting Jangan Kamu Urai, Anggap Saja Angin Angin Yang Berhembus. Terima Kasih."</strong><br><br>
+                <em>Di Lansir oleh Tuan Kribo</em>
+            </p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

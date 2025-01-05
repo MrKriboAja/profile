@@ -1,0 +1,79 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gambar Responsif */
+.image-container {
+    margin-bottom: 20px;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Video Responsif */
+.video-container {
+    margin-bottom: 20px;
+}
+
+.responsive-video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Teks Motivasi */
+.text-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.motivational-text {
+    font-size: 1.2em;
+    text-align: justify;
+    color: #555;
+}
+
+.motivational-text strong {
+    color: #000;
+    font-weight: bold;
+}
+
+.motivational-text em {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    text-align: right;
+    color: #777;
+}
+
+/* Responsif untuk Layar Kecil */
+@media (max-width: 768px) {
+    .motivational-text {
+        font-size: 1em;
+    }
+}
